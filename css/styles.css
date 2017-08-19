@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+* { margin: 0; background-origin: border-box; }
+
+body { background-color: #ddd; }
+
+body .nav-bar { background-color: #888; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
+
+body .nav-bar .logo { display: inline-block; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: center; font-family: 'Courgette', cursive; font-size: 32px; font-weight: bolder; }
+
+body .nav-bar .logo a { display: inline-block; text-decoration: none; color: #111; }
+
+body .nav-bar .menu { -webkit-box-flex: 2; -webkit-flex: 2; -ms-flex: 2; flex: 2; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
+
+body .nav-bar .menu ul { list-style-type: none; margin: 0; padding: 0; text-align: right; }
+
+body .nav-bar .menu ul li { display: inline; padding: 10px 5px; }
+
+body .nav-bar .menu ul li a { display: inline-block; text-decoration: none; color: #111; font-size: 22px; font-weight: bold; }
+
+body .nav-bar .menu ul li:hover { border: 1px solid white; }
+
+body .nav-bar .menu ul li:hover a { color: #555; }
+
+body .nav-bar .menu ul li:last-child { margin-right: 10px; }
+
+.disabled { cursor: no-drop; }
